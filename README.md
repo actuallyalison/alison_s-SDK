@@ -14,3 +14,8 @@ requests, json
 - api_token = "token from registering at https://the-one-api.dev"
 - lotr = LotrSdk(api_token)
 - lotr.book()
+
+## Testing
+- clone the GitHub source code
+- edit lotr_sdk_aastimson.py and set api_token to yours from the-one-api.dev
+- run lotr_sdk_aastimson.py
