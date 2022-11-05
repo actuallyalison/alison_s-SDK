@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lotr_sdk_aastimson"
+version = "0.0.2"
+authors = [
+  { name="Alison Stimson", email="ali@actuallyalison.com" },
+]
+description = "An SDK to access the LoTR API at https://the-one-api.dev"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/actuallyalison/alison_s-SDK"
+"Bug Tracker" = "https://github.com/actuallyalison/alison_s-SDK/issues"
